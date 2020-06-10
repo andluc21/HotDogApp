@@ -1,0 +1,130 @@
+body {
+  background: #fbfbf3;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: black;
+}
+
+* {
+  transition: all .65s ease;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 75em;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+/* Styling for if header image and logo used as discussed
+.full-bleed {
+  background-size: cover;
+  min-height: 300px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 700px) {
+  .full-bleed {
+    min-height: 175px;
+  }
+} */
+
+.post {
+  padding: 2em;
+}
+
+.menutitle {
+  color: #dd1021;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 48px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.btn {
+  float: right;
+  border: 3px solid #dd1021;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #dd1021;
+  font-size: 14px;
+  padding: 3px 10px 3px 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: #dd1021;
+  background: #dd1021;
+  color: #fbfbf3;
+}
+
+.quantity {
+  width: 50px;
+}
+
+.columns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.columns .item {
+  background-color: #271c20;
+  border-radius: 15px;
+  padding: 1.75em;
+  max-width: 47%;
+
+  margin-bottom: 2em;
+  position: relative;
+  overflow: hidden;
+}
+.columns .item .item-title {
+
+  font-size: 24px;
+  margin: 10px 5px 5px 0;
+  text-align: left;
+}
+
+.columns .item .item-title .item-price {
+  float: right;
+}
+
+.columns .item .item-body {
+  font-size: 12px;
+  margin: 0 0 10px 0;
+  padding-top: 10px;
+  display: block;
+}
+.columns .item .item-image {
+  max-width: 100%;
+}
+
+@media (max-width: 660px) {
+  .columns .item {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.columns.thirds .item {
+  max-width: 31%;
+}
+
+@media (max-width: 770px) {
+  .columns.thirds .item {
+    max-width: 48%;
+  }
+}
+
+@media (max-width: 770px) and (max-width: 660px) {
+  .columns.thirds .item {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+
+

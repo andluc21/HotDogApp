@@ -1,0 +1,30 @@
+[{
+    "id": 1,
+    "city": "Seattle",
+    "country": "United States",
+    "countryCode": "USA",
+    "latitude": 47.620166,
+    "longitude": -122.347864,
+    "provider": "google",
+    "state": "WA",
+    "address": "201 5th Avenue North",
+    "zipcode": "98109",
+    "open": "2pm",
+    "close": "2am"
+  },
+  {
+    "id": 2,  
+    "city": "Bellevue",
+    "country": "United States",
+    "countryCode": "USA",
+    "latitude":   47.6101,
+    "longitude": -122.2015,
+    "provider": "google",
+    "state": "WA",
+    "address": "15 Bellevue Way Southeast",
+    "zipcode": "98004",
+    "open": "2pm",
+    "close": "2am"
+  }
+
+]

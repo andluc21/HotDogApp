@@ -1,0 +1,66 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #5d676c;
+}
+
+.l-page {
+  position: relative;
+  margin-left: 240px;
+  z-index: 2;
+}
+
+.l-nav {
+  position: absolute;
+  width: 240px;
+  display: block; 
+  background: #3a4043;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.nav {
+  max-width: 50%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding-top: 100px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  overflow: auto;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav li {
+  margin: 0;
+  padding: 0px,0px,20px,20px;
+}
+
+.adminUsername{
+  color: red;
+  font-size: 16px;
+  display: block;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+  padding: 10px 0;
+}
+
+a:hover{
+  color: black;
+}
+
+.btn {
+  padding: 0px,0px,20px,20px;
+}
